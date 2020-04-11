@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts/mapDrawing.js"></script>
+    <title>The World of Pankiev</title>
+</head>
+<body onload="drawChessboard()">
+    <header>
+        <div id="navigation-console">
+            <button onclick="myFunction()">Start Game!</button>
+        </div>
+    </header>
+
+    <!-- <div id="intro">
+        <h1>The World of the Pankiev</h1>
+    </div> -->
+
+    <!-- id="gaming-part" -->
+    <div >
+        <div id="game-display">
+                <canvas id="canvasChessboard" width="450px" height="450px"></canvas>
+                <div id="player-stats">
+                    <h2>Interface</h2>
+                    <div class="interface-stats">
+                        <h4>Health Points:</h4>
+                        <h4>Mana Points:</h4>
+                        <h4>Spells:</h4>
+                        <h4>Equipment:</h4>
+                    </div>
+                </div>
+        </div>
+        <div id="board-game"></div>
+            <div id="game-console">
+                
+            </div>
+    </div>
+
+
+
+
+    <script src="scripts/logics.js"></script>
+</body>
+</html>
